@@ -20,7 +20,7 @@ public class KMeans {
     }
 
     public static void main(String[] args) {
-        List<Point> data = readCSV("points.csv");
+        List<Point> data = readCSV("data/points.csv");
         
         List<Point> centroids = initializeCentroids(data);
 
@@ -39,8 +39,8 @@ public class KMeans {
             t++;
         }
         System.out.println("The algorithm made : " + t + " iterations");
-        saveClusters(data, "output_points.csv");
-        saveCentroids(centroids, "output_centroids.csv");
+        saveClusters(data, "results/output_points.csv");
+        saveCentroids(centroids, "results/output_centroids.csv");
         System.out.println("Clustering error is : " + clusteringError(data,centroids));
 
         //printCl(data);

@@ -16,7 +16,7 @@ public class RandomPointsGenerator {
         }
         */
 
-       try (FileWriter writer = new FileWriter("points.csv")) {
+       try (FileWriter writer = new FileWriter("data/points.csv")) {
             for (double[] point : points) {
                 writer.write(point[0] + "," + point[1] + "\n");
             }

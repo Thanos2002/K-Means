@@ -14,7 +14,7 @@ The goal of this exercise is to develop a clustering program that uses the K-Mea
 Execute the clustering program on a dataset for M = 3, 6, 9, 12 clusters. For each value of M, perform the following:
 
 1. **Multiple Runs**: Execute 15 runs of the algorithm with different random initial centers to find the run with the minimum clustering error.
-2. **Visualization**: Plot the data points and the positions of the cluster centers (e.g., data points as '+' and centers as '*') on the same graph.
+2. **Visualization**: Plot the data points and the positions of the cluster centers (e.g., data points as '+' and centers as '*') on the same graph. This is done ny using a Python script.
 
 ### Summary
 This project involves implementing a K-Means clustering algorithm, executing it on a dataset with varying numbers of clusters, and analyzing the clustering error to determine the optimal number of clusters.

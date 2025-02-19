@@ -3,6 +3,9 @@
 ### Description
 The goal of this exercise is to develop a clustering program that uses the K-Means algorithm to cluster data points into M clusters. M will be specified as a static variable. The program will load a file containing the examples and will execute the K-Means algorithm with M clusters, ultimately saving the coordinates of the cluster centers.
 
+![Image](https://github.com/user-attachments/assets/56600136-0e29-4ca6-a398-883eb18f6d68)                   
+(*Visualization of K-means algorithm using nine clusters.*)
+
 ### Steps:
 1. **Initialization**: The initial position of each cluster center is chosen randomly from the examples.
 2. **Execution**: The algorithm is executed, clustering the data points into M clusters.
